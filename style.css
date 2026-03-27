@@ -91,7 +91,18 @@ address {
     display: block;
     /* for the links to take all the width */
     row-gap: 16px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    /* For every one */
+}
+
+/* For those who prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .profile {
+        transition: opacity 0.3s ease-in-out;
+        /* On garde la douceur, on vire le mouvement */
+        transform: none !important;
+        /* On annule tout déplacement physique */
+    }
 }
 
 .links:hover {
