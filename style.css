@@ -55,8 +55,8 @@ body {
 }
 
 .profile-image {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
 }
 
@@ -85,7 +85,7 @@ address {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 20%);
-    padding: 15px 100px;
+    padding: 14px 100px;
     border-radius: 8px;
     font-weight: 600;
     display: block;
